@@ -1,0 +1,29 @@
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .btnUpdate {
+    padding: 5px;
+    background-color: cadetblue;
+    color: white;
+    border: 1px solid green;
+    border-radius: 10px;
+  }
+  .inputUpdate {
+    height: 30px;
+    border: unset;
+    width: 200px;
+    border-radius: 10px;
+    border-bottom: 2px solid green;
+  }
+}
+
+.inputBox {
+  padding: 20px;
+  color: blueviolet;
+
+  .iconDelete {
+    margin-left: 20px;
+    align-self: center;
+  }
+}

@@ -1,0 +1,90 @@
+.box {
+  .inputList {
+    display: flex;
+    justify-content: center;
+    background-color: aqua;
+    margin-inline: 100px;
+    padding: 10px;
+    border-radius: 40px;
+
+    ul {
+      list-style: none;
+
+      h1 {
+        color: coral;
+        margin-bottom: 20px;
+      }
+    }
+  }
+  button {
+    padding: 5px;
+    border-radius: 50px;
+    border-top-right-radius: unset;
+    cursor: pointer;
+    color: white;
+    background-color: blueviolet;
+
+    &:hover {
+      background-color: blue;
+    }
+  }
+}
+
+.inputBox {
+  display: flex;
+  justify-content: center;
+
+  & input {
+    width: 250px;
+    padding: 10px;
+    border: unset;
+    border-bottom: 2px solid blue;
+    outline: none;
+    border-radius: 10px;
+
+    &:focus {
+      background-color: azure;
+      border-bottom: 2px solid red;
+      transition: all 0.25s linear;
+    }
+  }
+  .iconAdd {
+    margin-left: 10px;
+    padding: 5px 8px;
+    border-radius: 50%;
+    background-color: beige;
+    border-bottom: 4px solid cornflowerblue;
+    cursor: pointer;
+  }
+}
+
+.boxFlex {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(173, 236, 127);
+  border-radius: 50px;
+  width: max-content;
+  margin-bottom: 10px;
+  position: relative;
+}
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.done {
+  background-color: darkgray;
+  text-decoration: line-through;
+  border-radius: 30px;
+  color: wheat !important;
+}
+.iconDone {
+  position: absolute;
+  top: 13px;
+  right: 3px;
+  color: rgb(7, 224, 65);
+  opacity: 1.5 !important;
+}
